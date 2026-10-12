@@ -247,7 +247,7 @@
                     this.isLoading = true;
 
                     try {
-
+                        const ai = new GoogleGenAI({ apiKey: "APIKEY" });
                         
                         let systemInstruction = "You are an expert At-Home Automotive Mechanic AI Assistant. Help diagnose vehicle symptoms, provide repair advice, explain dashboard warning lights, and guide users through maintenance safely and clearly. Keep initial answers brief. Try to keep it to 3-7 sentences";
                         if (this.carModel) {
