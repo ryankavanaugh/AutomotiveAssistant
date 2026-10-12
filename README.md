@@ -1,4 +1,4 @@
-# AutomotiveAssistant
+# Automotive Assistant: With Launch Darkly Implementation
 
 > **Feature Flag:** `Car-image-upload-feature`  
 > Controls the visibility of the Image Upload Icon and enables image uploading within the app.
